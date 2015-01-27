@@ -1,0 +1,23 @@
+
+<?php use Phalcon\Tag; ?>
+
+<h2>Registrate haciendo uso de este formulario</h2>
+
+<?php echo Tag::form("signup/register"); ?>
+
+ <p>
+    <label for="name">Nombre</label>
+    <?php echo Tag::textField("name") ?>
+ </p>
+
+ <p>
+    <label for="name">Correo electronico</label>
+    <?php echo Tag::textField("email") ?>
+ </p>
+
+ <p>
+    <?php echo Tag::submitButton("Registrarme") ?>
+ </p>
+
+</form>
+ 
